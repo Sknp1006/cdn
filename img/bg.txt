@@ -1,0 +1,4 @@
+- caption: bg_0_babel.png
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/bg/bg_0_babel.png
+- caption: bg_0_babel2.png
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/bg/bg_0_babel2.png
