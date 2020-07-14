@@ -6,7 +6,7 @@ source_path = r"C:\Users\SKNP\Documents\GitHub\cdn\img"
 
 if dir_name == 'albums':
     sub_dir = os.listdir("\\".join([source_path, dir_name]))
-    glob_path = {sub: "\\".join([source_path, dir_name, sub, "*[jpg,png]"]) for sub in sub_dir}
+    glob_path = {sub: "\\".join([source_path, dir_name, sub, "*[jpg,png,gif]"]) for sub in sub_dir}
     for sub in glob_path:
         img_list = glob.glob(glob_path[sub], recursive=True)
         with open('{}.txt'.format(sub), mode='w') as f:
@@ -16,7 +16,7 @@ if dir_name == 'albums':
                 f.writelines("- caption: " + caption + '\n')
                 f.writelines("  src: " + src + '\n')
 else:
-    glob_path = {dir_name: "\\".join([source_path, dir_name, "*[jpg,png]"])}
+    glob_path = {dir_name: "\\".join([source_path, dir_name, "*[jpg,png,gif]"])}
     img_list = glob.glob(glob_path[dir_name], recursive=True)
     with open('{}.txt'.format(dir_name), mode='w') as f:
         for img in img_list:
