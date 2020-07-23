@@ -28,6 +28,8 @@
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Ch'en_2.jpg
 - caption: Closure_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Closure_1.jpg
+- caption: Crownslayer_1.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Crownslayer_1.jpg
 - caption: Cutter_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Cutter_1.jpg
 - caption: Exusiai_1.jpg
@@ -42,6 +44,8 @@
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Frostleaf_1.jpg
 - caption: FrostNova_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/FrostNova_1.jpg
+- caption: GreyThroat_1.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/GreyThroat_1.jpg
 - caption: Hoshiguma_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Hoshiguma_1.jpg
 - caption: Jessica_1.jpg
@@ -80,6 +84,8 @@
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Phantom_1.jpg
 - caption: Platinum_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Platinum_1.jpg
+- caption: Poca_1.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Poca_1.jpg
 - caption: Pramanix_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Pramanix_1.jpg
 - caption: ProjeKTRed_1.jpg
@@ -106,12 +112,22 @@
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Skyfire_1.jpg
 - caption: Sora_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Sora_1.jpg
+- caption: Sora_2.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Sora_2.jpg
+- caption: Sora_3.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Sora_3.jpg
 - caption: Specter_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Specter_1.jpg
+- caption: Suzuran_1.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Suzuran_1.jpg
 - caption: Swire_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Swire_1.jpg
 - caption: Texas_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Texas_1.jpg
+- caption: Texas_2.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Texas_2.jpg
+- caption: Texas_3.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Texas_3.jpg
 - caption: Vulcan_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Vulcan_1.jpg
 - caption: Warfarin_1.jpg

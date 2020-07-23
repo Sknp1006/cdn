@@ -44,8 +44,6 @@
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_seseren/crs2.gif
 - caption: crs3.gif
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_seseren/crs3.gif
-- caption: crs3.png
-  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_seseren/crs3.png
 - caption: dc.gif
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_seseren/dc.gif
 - caption: din.gif
