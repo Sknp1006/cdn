@@ -12,6 +12,10 @@
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Astesia_1.jpg
 - caption: Bagpipe_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Bagpipe_1.jpg
+- caption: Beeswax_1.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Beeswax_1.jpg
+- caption: Beeswax_2.jpg
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Beeswax_2.jpg
 - caption: Blaze_1.jpg
   src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights/Blaze_1.jpg
 - caption: BluePoison_1.jpg
