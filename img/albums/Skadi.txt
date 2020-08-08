@@ -1,4 +1,0 @@
-- caption: 001.png
-  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/Skadi/001.png
-- caption: 002.png
-  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/Skadi/002.png

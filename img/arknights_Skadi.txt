@@ -1,0 +1,8 @@
+- caption: 000.png
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_Skadi/000.png
+- caption: 001.png
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_Skadi/001.png
+- caption: 002.png
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_Skadi/002.png
+- caption: 003.png
+  src: https://cdn.jsdelivr.net/gh/Sknp1006/cdn/img/albums/arknights_Skadi/003.png
