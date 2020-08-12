@@ -1,11 +1,9 @@
 from pathlib import Path
-
-source_path = r"C:\Users\SKNP\Documents\GitHub"
-
+from setting import cdn_url, source_path
 
 exclude_dir = ['.git', '.idea', '.txt']
 exclude_file = ['txt', 'py', 'gitignore']  # 以"."开头的文件去掉"."
-cdn_url = "https://cdn.jsdelivr.net/gh/Sknp1006/cdn@master"
+
 
 
 def is_not_txt(file):
@@ -22,8 +20,8 @@ def write(file_list, path, type):
             for img in file_list:
                 caption = str(img).split("\\")[-1]
                 src = "/".join([cdn_url, str(path).replace('\\', '/'), caption])
-                f.writelines("- caption: " + caption + '\n')
-                f.writelines("  src: " + src + '\n')
+                f.writelines("  - caption: " + caption + '\n')
+                f.writelines("    src: " + src + '\n')
     elif type == 'ordinary':
         with open('{}.txt'.format(name), mode='w') as f:
             for img in file_list:
@@ -56,8 +54,3 @@ def tree(dir_name):
             write(file_list, path, 'albums')
         else:
             write(file_list, path, 'ordinary')
-
-
-if __name__ == '__main__':
-    tree('img')
-    tree('post')
