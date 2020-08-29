@@ -2,8 +2,7 @@ from pathlib import Path
 from setting import cdn_url, source_path
 
 exclude_dir = ['.git', '.idea', '.txt']
-exclude_file = ['txt', 'py', 'gitignore']  # 以"."开头的文件去掉"."
-
+exclude_file = ['txt', 'py', 'gitignore']  # 以"."开头的文件先去掉"."
 
 
 def is_not_txt(file):
@@ -12,9 +11,9 @@ def is_not_txt(file):
         return 1
 
 
-def write(file_list, path, type):
+def write(file_list, path, pic_type):
     name = '&'.join(str(file_list[0]).split('\\')[-3:-1])
-    if type == 'albums':
+    if pic_type == 'albums':
         print(name)
         with open('{}.txt'.format(name), mode='w') as f:
             for img in file_list:
@@ -22,13 +21,13 @@ def write(file_list, path, type):
                 src = "/".join([cdn_url, str(path).replace('\\', '/'), caption])
                 f.writelines("  - caption: " + caption + '\n')
                 f.writelines("    src: " + src + '\n')
-    elif type == 'ordinary':
+    elif pic_type == 'ordinary':
         with open('{}.txt'.format(name), mode='w') as f:
             for img in file_list:
                 caption = str(img).split("\\")[-1]
                 src = "/".join([cdn_url, str(path).replace('\\', '/'), caption])
                 f.writelines(src + '\n')
-    elif type == 'likes':
+    elif pic_type == 'likes':
         pass
 
 
