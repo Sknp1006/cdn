@@ -53,3 +53,7 @@ def tree(dir_name):
             write(file_list, path, 'albums')
         else:
             write(file_list, path, 'ordinary')
+
+
+if __name__ == '__main__':
+    tree("post")
